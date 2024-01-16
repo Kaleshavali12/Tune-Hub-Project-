@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="register" method="post">
+<label>Username : </label>
+<input type="text" name="username" required/>
+<br>
+<br>
+<label>Email : </label>
+<input type="email" name="email" required="required"/>
+<br>
+<br>
+<label>Password : </label>
+<input type="password" name='password' required="required"/>
+<br>
+<br>
+<label>Gender : </label>
+M<input type="radio" name="gender" value="male"/>
+F<input type="radio" name="gender" value="female"/>
+O<input type="radio" name="gender" value="other"/>
+<br>	
+<br>
+<label>Role : </label>
+
+Admin<input type="radio" name="role" value="admin"/>
+customer<input type="radio" name="role" value="customer"/>
+<br>
+<br>
+<label>Address : </label>
+<textarea name="address" required="required"></textarea>
+<br>
+<br>
+<input type="submit" value="REGISTER"/>
+</form>
+</body>
+</html>
